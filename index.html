@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HandyPlugLab creates simple, practical browser extensions and digital tools that solve everyday problems.">
+<meta name="theme-color" content="#101827">
+<title>HandyPlugLab - Small Tools. Real Solutions.</title>
+
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #182230;
+  background: #ffffff;
+  line-height: 1.6;
+}
+header {
+  padding: 22px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eeeeee;
+}
+.logo { font-size: 23px; font-weight: 800; }
+nav a {
+  margin-left: 22px;
+  color: #344054;
+  text-decoration: none;
+  font-size: 14px;
+}
+.hero {
+  background: #101827;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h1 { font-size: 48px; margin: 0 0 12px; }
+.hero p { color: #cbd5e1; font-size: 18px; }
+.hero a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #ffffff;
+  color: #101827;
+  border-radius: 7px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section { padding: 65px 8%; }
+.section-title { text-align: center; margin-bottom: 35px; }
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(240px,1fr));
+  gap: 22px;
+}
+.product {
+  padding: 25px;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+.product h3 { margin-top: 0; }
+.status { color: #16804a; font-size: 13px; font-weight: bold; }
+.product a { color: #175cd3; text-decoration: none; }
+.about {
+  background: #f5f7fa;
+  text-align: center;
+}
+footer {
+  background: #101827;
+  color: #cbd5e1;
+  text-align: center;
+  padding: 35px 15px;
+  font-size: 13px;
+}
+footer a { color: white; margin: 0 9px; }
+@media(max-width:600px) {
+  header { flex-direction: column; gap: 12px; }
+  nav a { margin: 0 7px; }
+  .hero h1 { font-size: 35px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">HandyPlugLab</div>
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Small Tools. Real Solutions.</h1>
+  <p>Simple, practical digital tools that make everyday tasks easier.</p>
+  <a href="#products">Explore Our Products</a>
+</div>
+
+<section id="products">
+  <div class="section-title">
+    <h2>Our Products</h2>
+    <p>Discover useful tools designed to solve real problems.</p>
+  </div>
+
+  <div class="products">
+
+    <div class="product">
+      <h3>YouTube Focus Filter</h3>
+      <p>Filter distractions and focus on the YouTube content that matters to you.</p>
+      <p class="status">Available Now</p>
+      <a href="https://chromewebstore.google.com/detail/youtube-focus-filter/aobdhgigmcmpdjpklponjmdknbmoahlb"
+         target="_blank" rel="noopener">View on Chrome Web Store →</a>
+    </div>
+
+    <div class="product">
+      <h3>PassportPhoto Pro</h3>
+      <p>Create passport photos with convenient tools designed for different country requirements.</p>
+      <p class="status">Coming Soon</p>
+    </div>
+
+    <div class="product">
+      <h3>More Useful Tools</h3>
+      <p>We are continuously developing practical digital products to make everyday tasks easier.</p>
+      <p class="status">In Development</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="about" class="about">
+  <h2>About HandyPlugLab</h2>
+  <p>
+    HandyPlugLab is an independent software product studio
+    focused on creating simple, useful, and accessible digital tools.
+  </p>
+  <p>
+    Our mission is simple: make technology practical and
+    make everyday tasks easier for everyone.
+  </p>
+</section>
+
+<section id="contact">
+  <div class="section-title">
+    <h2>Contact Us</h2>
+    <p>Have a question or suggestion? We'd love to hear from you.</p>
+    <p><a href="mailto:Youhua.Chan@outlook.com">Youhua.Chan@outlook.com</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 HandyPlugLab. All rights reserved.</p>
+  <p>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Service</a>
+    <a href="refund.html">Refund Policy</a>
+  </p>
+</footer>
+
+</body>
+</html>
